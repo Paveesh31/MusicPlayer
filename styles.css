@@ -1,0 +1,31 @@
+body {
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controls button:focus {
+    outline: none;
+}
+
+.controls button:hover {
+    background-color: #ccc;
+}
